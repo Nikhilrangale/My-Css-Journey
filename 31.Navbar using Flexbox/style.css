@@ -1,0 +1,35 @@
+ 
+        .logo img {
+            width: 164px;
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-family: 'Segoe UI';
+            cursor: pointer;
+        }
+
+        .right ul {
+            display: flex;
+            gap: 34px;
+        }
+
+        .right ul li {
+            list-style: none;
+            display: flex;
+            align-items: center;
+        }
+
+
+        .right ul li span {
+            padding: 0 9px;
+        }
+
+        /* .right ul li a span{
+            background-color: white;
+            color: rgb(42, 239, 78);
+        } */
+    

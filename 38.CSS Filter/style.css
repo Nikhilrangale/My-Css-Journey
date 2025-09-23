@@ -1,0 +1,20 @@
+ /* img{
+            filter: blur(10px); multiple filters space deke lga sakte hai
+        } */
+
+ .img1 {
+     width: 100vw;
+     filter: brightness(100%) contrast(120%);
+ }
+
+ .img2 {
+     width: 100vw;
+     /* filter: invert(.61); */
+     filter: opacity(0.6);
+ }
+
+ .img3 {
+     width: 100vw;
+     /* filter: grayscale(400%); */
+     filter: sepia(100%);
+ }

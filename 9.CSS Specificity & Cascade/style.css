@@ -1,0 +1,30 @@
+/* the specificity of this selector is 1 */
+.h1 {
+    color: aqua;
+}
+
+/* /* the specificity of this selector is 1+10=11  */
+so this color are apply h1.yellow {
+    color: yellow;
+}
+
+/* the specificity of this selector is 10  */
+.cred {
+    color: red;
+}
+
+/* the specificity of this selector is 10  */
+.cpurple {
+    color: purple;
+}
+
+/* this is an example of atribute selector. the specificity of this selector is 10  */
+/* atribute selector  */
+[data-x="a"] {
+    color: maroon
+}
+
+/* The specificity of this selector is 1+10+10+10+10=41  */
+a.harryclass.rohan-class[href]:hover {
+    color: blueviolet
+}

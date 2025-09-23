@@ -1,0 +1,53 @@
+.container {
+    border: 2px solid red;
+    display: flex;
+    height: 80vh;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* align-content: flex-start; */
+    flex-flow: row wrap;
+    gap: 30px;
+    /* row-gap: 40PX;
+column-gap: 10PX; */
+    /* OR */
+    gap: 40PX 10PX;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row; */
+    /* etc */
+    /* there is no justify-items in Flexbox */
+}
+
+
+.item {
+    flex-grow: 1;
+    height: 52px;
+    width: 52px;
+    border: 2px solid black;
+    /* margin: 4px; */
+    background-color: blueviolet;
+}
+
+.item1 {
+    /* flex-grow: 2;
+            flex-shrink: 2; */
+    align-self: flex-end;
+}
+
+.order-1 {
+    align-self: flex-start;
+}
+
+.order-1 {
+    order: 1;
+}
+
+.order-2 {
+    order: 2;
+}
+
+.order-3 {
+    order: 3;
+}
